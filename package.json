@@ -2,7 +2,6 @@
 	"name": "@henris/components-react",
 	"sideEffects": false,
 	"version": "0.0.1",
-	"private": true,
 	"description": "React specific wrapper for Henri's Components",
 	"repository": {
 		"type": "git",
@@ -34,7 +33,7 @@
 		"typescript": "^3.3.4000"
 	},
 	"dependencies": {
-		"component-library": "^0.0.1"
+		"@henris/components": "^0.0.1"
 	},
 	"peerDependencies": {
 		"react": "^16.7.0",
