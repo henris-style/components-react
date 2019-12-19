@@ -14,7 +14,7 @@
 		"tsc": "tsc -p .",
 		"rollup": "rollup -c"
 	},
-	"main": "./dist/index.cjs.js",
+	"main": "./dist/index.js",
 	"module": "./dist/index.es.js",
 	"types": "./dist/index.d.ts",
 	"files": [
@@ -22,7 +22,7 @@
 	],
 	"devDependencies": {
 		"@types/jest": "23.3.9",
-		"@types/node": "10.12.9",
+		"@types/node": "^12.12.21",
 		"@types/react": "16.7.6",
 		"@types/react-dom": "16.0.9",
 		"jest": "^23.0.0",
